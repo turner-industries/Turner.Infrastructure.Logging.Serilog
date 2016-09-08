@@ -50,8 +50,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="Turner.Infrastructure.Logging">
-      <HintPath>..\lib\Turner.Infrastructure.Logging.dll</HintPath>
+    <Reference Include="Turner.Infrastructure">
+      <HintPath>..\lib\Turner.Infrastructure.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
