@@ -6,7 +6,7 @@
     <authors>Turner Industries Group, LLC</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Turner.Infrastructure.Logging.Serilog is an adapter for Turner Industries Group's ILogger</description>
-	<dependencies>
+    <dependencies>
       <dependency id="SimpleInjector" version="3.2.2" />
       <dependency id="Serilog" version="2.2.1" />
       <dependency id="Serilog.Sinks.ColoredConsole" version="2.0.0" />
