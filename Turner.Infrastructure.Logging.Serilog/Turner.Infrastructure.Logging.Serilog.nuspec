@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Turner.Infrastructure.Logging.Serilog</id>
+    <version>1.0.0</version>
+    <authors>Turner Industries Group, LLC</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Turner.Infrastructure.Logging.Serilog is an adapter for Turner Industries Group's ILogger</description>
+	<dependencies>
+      <dependency id="SimpleInjector" version="3.2.2" />
+      <dependency id="Serilog" version="2.2.1" />
+      <dependency id="Serilog.Sinks.ColoredConsole" version="2.0.0" />
+      <dependency id="Turner.Infrastructure" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Turner.Infrastructure.Logging.Serilog.dll" target="lib" />
+  </files>
+</package>
